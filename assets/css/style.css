@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #343a40;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #555;
+}
+
+.navbar-brand, .btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header {
+    background-image: url("bg4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+}
+/* Styling untuk anggota tim */
+img.rounded-circle {
+    width: 150px;
+    height: 165px;
+    border: 5px solid #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000;
+}
+
+.social-icons a img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+.text-start {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
